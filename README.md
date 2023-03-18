@@ -1,4 +1,5 @@
 ﻿# Air-Bnb-Frontend-MUI
+ ## Description
 I am trying to create a user interface that mimics the appearance and functionality of the popular vacation rental platform, Airbnb. The project is built using the Material-UI library and the React framework, which are both widely used tools for creating dynamic and responsive user interfaces.
 <br><br>
 Material-UI is a popular library of pre-designed components, icons, and themes that enable developers to create stylish and functional user interfaces quickly and easily. React, on the other hand, is a powerful JavaScript library that allows developers to build complex web applications with ease, thanks to its component-based architecture and efficient rendering capabilities.
