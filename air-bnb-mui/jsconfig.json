@@ -1,0 +1,10 @@
+// to avoid deeply nested imports like ../../
+
+{
+    "compilerOptions": {
+      "baseUrl": "src"
+    },
+    "include": [
+      "src"
+    ]
+  }
