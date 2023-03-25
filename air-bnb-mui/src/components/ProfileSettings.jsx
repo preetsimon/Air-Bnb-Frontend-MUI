@@ -12,15 +12,29 @@ import { flexCenter } from '../themes/commonStyles';
 const ProfileSettings = () => {
   return (
     <Box sx={flexCenter}>
-      <Link href="#"> Become A Host</Link>
+      <Link sx={{
+        ":hover": {
+          bgcolor: "#f5f5f5",
+          borderRadius: 5,
+          color: "black"
+        },
+        padding : "0.7rem"
+      }} href="#"> Become A Host</Link>
       <Stack>
-        <Button>
+        <Button
+        sx={{
+          ":hover": {
+            bgcolor: "#f5f5f5",
+            borderRadius: 5
+          } 
+        }}
+        >
           <BsGlobe size={24} />
         </Button>
         <Button
           sx={{
             borderRadius: 10,
-            border: '1px solid #ddd',
+            border: '1px solid #f5f5f5',
           }}
         >
           <Stack>

@@ -59,6 +59,9 @@ const theme = createTheme({
       },
       variant: 'text',
     },
+    MuiButtonBase: {
+      disableRipple: true
+    },
     MuiTab: {
       defaultProps: {
         disableRipple: true,

@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 // react icons
 import { FaFilter } from 'react-icons/fa';
-import { locationsTab } from 'data/mock-data';
+import { locationsTab } from '../data/mock-data';
 
 const OptionsTab = () => {
   const [value, setValue] = React.useState(0);
@@ -31,11 +31,12 @@ const OptionsTab = () => {
           value={value}
           onChange={handleChange}
           variant="scrollable"
-          scrollButtons
+          scrollButtons="auto"
           sx={{
             [`& .${tabsClasses.scrollButtons}`]: {
               '&.Mui-disabled': { opacity: 0.3 },
             },
+            disableRipple: true
           }}
         >
           {locationsTab.map((tab) => {
