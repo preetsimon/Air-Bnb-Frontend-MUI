@@ -1,25 +1,26 @@
-import React from 'react';
+import React from "react";
 
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import Stack from '@mui/material/Stack';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Paper from '@mui/material/Paper';
+import Button from "@mui/material/Button";
+import Divider from "@mui/material/Divider";
+import Stack from "@mui/material/Stack";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Paper from "@mui/material/Paper";
 // react icons
-import { IoSearchCircleSharp } from 'react-icons/io5';
-import { pink } from '@mui/material/colors';
+import { IoSearchCircleSharp } from "react-icons/io5";
+import { pink } from "@mui/material/colors";
 
 const choices = [
-  { id: 1, text: 'Anywhere' },
-  { id: 2, text: 'Any week' },
-  { id: 3, text: 'Add guest', withIcon: true },
+  { id: 1, text: "Anywhere" },
+  { id: 2, text: "Any week" },
+  { id: 3, text: "Add guest", withIcon: true },
 ];
 
 const LocationSearch = () => {
   return (
     <Paper
       sx={{
+        height: "3em",
         borderRadius: 20,
         ml: 15,
       }}
@@ -29,6 +30,7 @@ const LocationSearch = () => {
         sx={{
           borderRadius: 20,
           pl: 2,
+          height: "3em"
         }}
         divider={<Divider orientation="vertical" flexItem />}
       >
@@ -38,7 +40,7 @@ const LocationSearch = () => {
               <Typography
                 sx={{
                   color: (theme) => theme.palette.text.primary,
-                  fontWeight: 'bold',
+                  fontWeight: "bold",
                 }}
               >
                 {choice.text}
@@ -51,7 +53,7 @@ const LocationSearch = () => {
                     mr: 1,
                   }}
                 >
-                  <IoSearchCircleSharp color={pink[500]} size={32} />
+                  <IoSearchCircleSharp color="#ff385c" size={32} />
                 </Box>
               )}
             </Button>

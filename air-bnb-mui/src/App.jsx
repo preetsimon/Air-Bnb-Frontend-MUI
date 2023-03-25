@@ -14,7 +14,7 @@ import { displayOnDesktop } from "../src/themes/commonStyles";
 
 function App() {
   return (
-    <React.Fragment>
+      <>
       <CssBaseline />
       <Box
         sx={{
@@ -56,7 +56,9 @@ function App() {
         </Box>
          */}
       </Box>
-    </React.Fragment>
+      </>
+    
+   
   );
 }
 
