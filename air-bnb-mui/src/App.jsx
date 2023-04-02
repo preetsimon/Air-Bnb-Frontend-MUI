@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import OptionsTab from './components/OptionsTab';
 
 import Container from '@mui/material/Container';
-// import LocationCards from 'components/LocationCards';
+import CardLocations from './components/CardLocations';
 import '../src/App.css';
 // import Footer from 'components/Footer';
 // import FooterMenu from 'components/FooterMenu';
@@ -27,7 +27,7 @@ function App() {
           <Header />
           <OptionsTab />
         </Box>
-{/* 
+
         <Box
           sx={{
             display: 'flex',
@@ -38,23 +38,24 @@ function App() {
           }}
         >
           <Container maxWidth="xl" sx={{ mb: 3 }}>
-            <LocationCards />
-            <Box
+            <CardLocations />
+
+            {/* <Box
               sx={{
                 display: { xs: 'flex', md: 'none' },
               }}
             >
               <MobileFooter />
-            </Box>
+            </Box> */}
           </Container>
         </Box>
         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-          <FooterMenu />
+          {/* <FooterMenu /> */}
         </Box>
         <Box sx={displayOnDesktop}>
-          <Footer />
+          {/* <Footer /> */}
         </Box>
-         */}
+
       </Box>
       </>
     
