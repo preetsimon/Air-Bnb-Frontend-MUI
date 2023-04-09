@@ -22,9 +22,10 @@ const FooterMenu = () => {
                                 sx={{
                                     justifyContent: 'center',
                                     alignItems: 'center',
+                                    paddingBottom: "10px"
                                 }}
                                 direction="column"
-                                spacing={1}
+                                spacing={1.5}
                             >
                                 {item.icon}
                                 <Typography> {item.text}</Typography>
