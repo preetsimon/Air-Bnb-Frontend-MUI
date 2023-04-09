@@ -15,7 +15,7 @@ const theme = createTheme({
       main: grey[700],
     },
     secondary: {
-      main: "#ff385c",
+      main: "#51abf0",
     },
   },
   components: {
