@@ -50,7 +50,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1600240644455-3edc55c375fe?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/843633/pexels-photo-843633.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -76,7 +76,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -102,7 +102,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/271681/pexels-photo-271681.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -128,7 +128,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/1482193/pexels-photo-1482193.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -154,7 +154,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1647891940243-77a6483a152e?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/3461205/pexels-photo-3461205.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -180,7 +180,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/358332/pexels-photo-358332.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -206,7 +206,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1504567961542-e24d9439a724?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/1752043/pexels-photo-1752043.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -232,7 +232,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1523528283115-9bf9b1699245?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/2562096/pexels-photo-2562096.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -258,7 +258,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/382167/pexels-photo-382167.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -284,7 +284,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1518593929011-2b5ef6be57c7?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/565501/pexels-photo-565501.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,
@@ -310,7 +310,7 @@ export const locations = [
     locationImages: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1458966480358-a0ac42de0a7a?auto=format&fit=crop&w=400&h=250&q=60',
+        url: 'https://images.pexels.com/photos/163574/boat-sea-sky-water-163574.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=2',
       },
       {
         id: 2,

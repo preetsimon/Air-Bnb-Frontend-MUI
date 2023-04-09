@@ -75,6 +75,10 @@ const CardLocations = () => {
                         sx={{ position: "relative" }}
                         src={image.url}
                         radius="md"
+                        maw={340}
+                        height={250}
+                      // fit="cover"
+
                       />
                       <i
                         style={{
