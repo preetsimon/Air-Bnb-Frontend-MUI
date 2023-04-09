@@ -7,14 +7,14 @@ import OptionsTab from './components/OptionsTab';
 import Container from '@mui/material/Container';
 import CardLocations from './components/CardLocations';
 import '../src/App.css';
-// import Footer from 'components/Footer';
-// import FooterMenu from 'components/FooterMenu';
+import Footer from './components/Footer';
+import FooterMenu from './components/FooterMenu';
 import { displayOnDesktop } from "../src/themes/commonStyles";
-// import MobileFooter from 'components/MobileFooter';
+import MobileFooter from './components/MobileFooter';
 
 function App() {
   return (
-      <>
+    <>
       <CssBaseline />
       <Box
         sx={{
@@ -29,6 +29,7 @@ function App() {
         </Box>
 
         <Box
+          // fixed scroll issue, overflow hidden in app.css 
           sx={{
             display: 'flex',
             flexDirection: 'column',
@@ -40,26 +41,28 @@ function App() {
           <Container maxWidth="xl" sx={{ mb: 3 }}>
             <CardLocations />
 
-            {/* <Box
+            <Box
               sx={{
                 display: { xs: 'flex', md: 'none' },
               }}
             >
               <MobileFooter />
-            </Box> */}
+            </Box>
           </Container>
         </Box>
+
         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-          {/* <FooterMenu /> */}
+          <FooterMenu />
         </Box>
+
         <Box sx={displayOnDesktop}>
-          {/* <Footer /> */}
+          <Footer />
         </Box>
 
       </Box>
-      </>
-    
-   
+    </>
+
+
   );
 }
 
